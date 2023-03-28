@@ -1,0 +1,94 @@
+.shadow {
+  box-shadow: 0 0px 0px 0px rgb(99, 98, 98);
+  z-index: 5;
+}
+
+.dropdown {
+  border-radius: 5px;
+  background: white;
+  width: 100%;
+  color: rgba(128, 130, 129, 1);
+}
+
+.dropdownMenu {
+  width: 100%;
+}
+
+.dropdownItem {
+  color: rgba(128, 130, 129, 1);
+}
+
+.dropdownItem:hover {
+  color: rgba(86, 88, 87, 1);
+  background: rgba(233, 249, 240, 1);
+}
+
+.profileItem {
+  color: rgba(86, 88, 87, 1);
+}
+
+.profileItem:hover {
+  background: rgba(233, 249, 240, 1);
+}
+
+.toggleButton {
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
+  z-index: 10;
+}
+
+.bar {
+  height: 3px;
+  width: 100%;
+  background-color: red;
+  border-radius: 10px;
+}
+
+.navWhenSidebarCollapsed {
+  height: 10vh;
+  background: none;
+  border-bottom: 1px solid rgba(203, 210, 217, 1);
+  z-index: 2;
+  left: 8vw;
+}
+
+.navWhenSidebarExpanded {
+  height: 10vh;
+  background: none;
+  border-bottom: 1px solid rgba(203, 210, 217, 1);
+  z-index: 2;
+  left: 15vw;
+}
+
+.nav {
+  height: 10vh;
+  background: none;
+  border-bottom: 1px solid rgba(203, 210, 217, 1);
+  z-index: 2;
+  left: 14vw;
+}
+
+.navCollapsed {
+  height: 10vh;
+  background: none;
+  border-bottom: 1px solid rgba(203, 210, 217, 1);
+  z-index: 2;
+  left: 4vw;
+  transition: all 0.5s;
+}
+
+.navbarCollapse {
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.navbarToggle {
+  display: flex;
+  justify-self: flex-end;
+}

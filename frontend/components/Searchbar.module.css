@@ -1,0 +1,13 @@
+.searchBarIcon{
+    display: inline-flex;
+    align-items: center;
+    width:100%;
+    margin-top: 0.01vh;
+}
+
+.inputBox{
+    border: 1px solid rgba(154, 165, 177, 1);
+    border-radius:5px;
+    text-indent: 5px;
+    width:33%;
+}

@@ -1,0 +1,88 @@
+.sidebarExpanded {
+  z-index: 3;
+  border-right: 1px solid rgba(203, 210, 217, 1);
+  width: 15vw;
+  transition: width 0s;
+}
+
+.sidebarCollapsed {
+  z-index: 10;
+  border-right: 1px solid rgba(203, 210, 217, 1);
+  width: 5vw;
+  transition: all 0.5s;
+}
+
+.logoHeight {
+  height: 10vh;
+}
+
+.titleLogo {
+  padding-top: 3vh;
+}
+
+.li {
+  padding: 8% 0%;
+}
+
+.collapsedIconColor {
+  color: rgba(213, 213, 213, 1);
+}
+
+.collapsedIconColor:hover {
+  color: rgba(128, 130, 129, 1);
+}
+
+.linkcolor {
+  color: rgba(213, 213, 213, 1);
+  margin: 0 5%;
+}
+
+.linkcolor:hover {
+  color: rgba(128, 130, 129, 1);
+}
+
+.settingHelpColor {
+  color: rgba(128, 130, 129, 1);
+}
+
+.menuItems {
+  width: 100%;
+}
+
+.menuIcon {
+  width: 40%;
+}
+
+.menuTextText {
+  width: 90%;
+}
+
+.menuTextIcon {
+  width: 10%;
+}
+
+.collapsed {
+  margin-left: 20%;
+}
+
+.toggleButton {
+  right: -15px;
+  top: 12vh;
+  z-index: 20;
+  background-color: white;
+  border-radius: 100px;
+  border: 3px solid white;
+}
+
+.icon {
+  font-size: 2vw;
+}
+
+.menuitem {
+  margin: 25% 0%;
+}
+
+.margin {
+  margin: 0px 6%;
+  background: yellow;
+}

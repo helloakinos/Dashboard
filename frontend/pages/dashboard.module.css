@@ -1,0 +1,89 @@
+.height {
+  height: 87vh;
+}
+
+.headingFontSize {
+  font-size: 1.6vw;
+}
+
+.farmFontSize {
+  font-size: 1.1vw;
+}
+
+.dropdown {
+  text-align: center;
+  width: 100%;
+  padding: 0 5px 0 5px;
+  margin: 0;
+  font-size: 1vw;
+  font-family: "Be Vietnam Pro";
+}
+
+.dropdownToggle {
+  color: rgba(0, 168, 150, 1);
+  border: 1px solid rgba(0, 168, 150, 1);
+}
+
+.reportColumn {
+  background: rgba(245, 247, 250, 1);
+  height: 6vh;
+  align-items: center;
+  border-right: 1px solid rgba(203, 210, 217, 1);
+  border-left: 1px solid rgba(203, 210, 217, 1);
+  border-bottom: 1px solid rgba(203, 210, 217, 1);
+  font-size: 0.85vw;
+  font-family: "Be Vietnam Pro";
+}
+
+.blockWidth {
+  width: 10%;
+}
+
+.predictedYieldWidth {
+  width: 21%;
+}
+
+.stemDensityWidth {
+  width: 20%;
+}
+
+.PredictedHarvestDateWidth {
+  width: 22%;
+}
+
+.growthStageWidth {
+  width: 14%;
+}
+
+.actionsWidth {
+  width: 13%;
+}
+
+.increase {
+  background: rgba(221, 237, 255, 1);
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.decrease {
+  background: rgba(254, 240, 207, 1);
+  padding: 3px;
+  border-radius: 15px;
+}
+
+.fullscreenButton:hover {
+  color: rgb(38, 202, 186);
+  border-radius: 3px;
+  align-self: center;
+  cursor: pointer;
+}
+
+.fullscreenButtonIcon {
+  color: rgba(128, 130, 129, 1);
+  font-size: 2vw;
+}
+
+.border {
+  border-top: 20px solid white;
+  border-bottom: 20px solid white;
+}

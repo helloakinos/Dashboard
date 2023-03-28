@@ -1,0 +1,60 @@
+.reportRow{
+    background:rgba(255, 255, 255, 1);
+    height:6vh;
+    align-items: center;
+    border-right: 1px solid rgba(203, 210, 217, 1);
+    border-left: 1px solid rgba(203, 210, 217, 1);
+    border-bottom: 1px solid rgba(203, 210, 217, 1);
+    font-size:0.8vw;
+    font-family:'Be Vietnam Pro';
+}
+
+.blockWidth{
+    width:10%;
+}
+
+.predictedYieldWidth{
+    width:21%;
+}
+
+.stemDensityWidth{
+    width:20%;
+}
+
+.PredictedHarvestDateWidth{
+    width:22%;
+}
+
+.growthStageWidth{
+    width:14%;
+}
+
+.actionsWidth{
+    width:13%;
+}
+
+.increase{
+    background:rgba(221, 237, 255, 1);
+    padding:3px;
+    border-radius:15px;
+}
+
+.decrease{
+    background:rgba(254, 240, 207, 1);
+    padding:3px;
+    border-radius:15px;
+}
+
+.displayData{
+    padding:2px;
+}
+
+.displayDataWidth{
+    width:55%
+}
+
+.displayDataWidth2{
+    width:43%
+}
+
+
